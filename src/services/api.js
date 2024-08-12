@@ -1,7 +1,7 @@
-
+const API_URL = process.env.REACT_APP_API_URL;
 export const getHelloMessage = async () => {
     try {
-        const response = await fetch('http://localhost:3000/api/hello');
+        const response = await fetch(`${API_URL}/api/hello`);
 
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -17,7 +17,7 @@ export const getHelloMessage = async () => {
 
 export const getResponse = async (text) => {
     try {
-        const response = await fetch('http://localhost:3000/api/consulta', {
+        const response = await fetch(`${API_URL}/api/consulta`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -39,7 +39,7 @@ export const getResponse = async (text) => {
 
 export const getQuestions = async () => {
     try {
-        const response = await fetch('http://localhost:3000/api/preguntas');
+        const response = await fetch(`${API_URL}/api/preguntas`);
 
         if (!response.ok) {
             throw new Error('Network response was not ok');
