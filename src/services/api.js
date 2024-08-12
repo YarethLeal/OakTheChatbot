@@ -1,4 +1,4 @@
-const API_URL = "https://oak-the-chatbot-api.vercel.app/"
+const API_URL = 'https://oak-the-chatbot-api.vercel.app';
 export const getHelloMessage = async () => {
     try {
         const response = await fetch(`${API_URL}/api/hello`);
