@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ChatbotWindow from './components/ChatbotWindow';
+import pokeball from './assets/pokeball.png';
+import oak from './assets/oak.png';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,24 +11,23 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://www.pokemon.com/us" target="_blank">
+          <img src={pokeball} className="logo react" alt="React logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src={oak} height={150} />
       </div>
-      <h1>Vite + React</h1>
+      <h1>Oak The ChatBot</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          <img src={pokeball} width={16} height={16} />
+          Captured Pokemon: {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          All trainers need companions, and I'm here to help you on your journey.
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Pokeball to learn more
       </p>
       <ChatbotWindow />
     </>
