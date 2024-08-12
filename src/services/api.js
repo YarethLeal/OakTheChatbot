@@ -3,9 +3,6 @@
 
 export const getResponse = async (text) => {
     try {
-        //const response = await axios.post('http://localhost:3000/api/chatbot', { text });
-        //return response.data.respuesta;
-        //await new Promise(resolve => setTimeout(resolve, 3000));
         const response = await fetch('http://localhost:3000/api/consulta', {
             method: 'POST',
             headers: {
