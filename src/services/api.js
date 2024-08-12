@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://oak-the-chatbot-api.vercel.app/"
 export const getHelloMessage = async () => {
     try {
         const response = await fetch(`${API_URL}/api/hello`);
