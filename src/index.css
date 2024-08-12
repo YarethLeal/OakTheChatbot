@@ -169,6 +169,7 @@ button:focus-visible {
   padding: 10px;
   border-radius: 5px;
   max-width: 70%;
+  color: white;
 }
 
 .message.user {
