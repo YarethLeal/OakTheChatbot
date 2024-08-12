@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://yarethleal.github.io/oakthechatbot",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
