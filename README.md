@@ -44,8 +44,8 @@ Currently, two official plugins are available:
 
 List of all prerequisites necessary for running the project:
 
-- [NodeJS]([https://github.com/](https://nodejs.org/en))
-- [Git]([https://github.com](https://git-scm.com/))
+- [NodeJS](https://nodejs.org/en)
+- [Git](https://git-scm.com/)
  
 <h3>Cloning</h3>
 
