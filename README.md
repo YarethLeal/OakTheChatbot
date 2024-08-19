@@ -42,10 +42,10 @@ Currently, two official plugins are available:
  
 <h3>Prerequisites</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
+List of all prerequisites necessary for running the project:
 
-- [NodeJS](https://github.com/)
-- [Git](https://github.com)
+- [NodeJS]([https://github.com/](https://nodejs.org/en))
+- [Git]([https://github.com](https://git-scm.com/))
  
 <h3>Cloning</h3>
 
