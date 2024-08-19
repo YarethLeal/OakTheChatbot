@@ -39,8 +39,6 @@ Currently, two official plugins are available:
 - Css for styled
  
 <h2 id="started">🚀 Getting started</h2>
-
-Here you describe how to run your project locally
  
 <h3>Prerequisites</h3>
 
